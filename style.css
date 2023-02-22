@@ -155,7 +155,7 @@
   font-size: 1.3rem;
   padding: 20px;
 }
-.ourservp{
+.ourservp {
   margin-top: 32px;
 }
 .mainservicecont {
@@ -171,29 +171,51 @@
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%),
     inset 0 -1px 0 rgb(255 255 255 / 15%);
 }
-.marginb{
+.marginb {
   margin-bottom: 150px;
 }
-.DanceServices{
+.DanceServices {
   display: flex;
   justify-content: center;
   background-color: white;
 }
 
-.BeautyServices{
+.BeautyServices {
   display: flex;
   justify-content: center;
   background-color: white;
 }
 
-.servimages{
+.servimages {
   border-radius: 10px;
 }
 
-.goodfont{
+.goodfont {
   font-family: var(--bs-body-font-family);
 }
 
-.fontsizeserv{
+.fontsizeserv {
   font-size: 2rem;
 }
+.authform {
+  width: 40vw;
+}
+@media screen and (max-width: 1110px) {
+  .authform {
+    width: 65vw;
+  }
+}
+
+.aboutimg{
+  width: 45vw;
+  /* border: 2px solid black; */
+}
+
+.aboutdesc{
+  text-align: justify;
+}
+
+.searchbar{
+  width: 200px;
+}
+
