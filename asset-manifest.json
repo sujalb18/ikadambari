@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.e8b34ad0.js",
+    "static/media/vid.mp4": "/static/media/vid.e6f31785a2ec68c597c5.mp4",
+    "static/media/ikadambari sastalogo2.jpeg": "/static/media/ikadambari sastalogo2.806420939743936e78a5.jpeg",
+    "static/media/ikadambari sasta logo.png": "/static/media/ikadambari sasta logo.86371fea923d6680626d.png",
+    "static/media/we.jpeg": "/static/media/we.87bd460fd7bf4de2dd62.jpeg",
+    "index.html": "/index.html",
+    "main.e8b34ad0.js.map": "/static/js/main.e8b34ad0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e8b34ad0.js"
+  ]
+}
