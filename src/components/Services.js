@@ -47,15 +47,19 @@ export default function Services() {
             </div>
 
             <div className='d-grid servicecontainer m-auto'>
+            <a href='#beautyLink' >
                 <div className='grid-items'>
                     <div className='my-2'>
                         <img src={beautyImage} alt="BGIMG" width={'30px'} height={'40px'} />
                     </div>
 
                     <div>
-                        <b><a href='#beautyLink' className='aref'><p style={{ fontSize: '0.9rem' }}>Beauty Parlour for Women</p></a></b>
+                        <b><p style={{ fontSize: '0.9rem' }}>Beauty Parlour for Women</p></b>
                     </div>
                 </div>
+                </a>
+
+            <a href='#yogaLink'>
                 <div className='grid-items '>
                     <div className='my-2'>
                         <img src={yogaImage} width={'30px'} height={'40px'} />
@@ -64,6 +68,8 @@ export default function Services() {
                         <b><a href='#' className='aref'><p style={{ fontSize: '0.9rem' }}>Yoga Teacher</p></a></b>
                     </div>
                 </div>
+            </a>
+        
                 <div className='grid-items'>
                     <div className='my-2'>
                         <img src={foodSImage} width={'30px'} height={'40px'} />
@@ -80,14 +86,16 @@ export default function Services() {
                         <b><a href='#' className='aref'><p style={{ fontSize: '0.9rem' }}>Home Tuitions</p></a></b>
                     </div>
                 </div>
+                <a href ='#danceLink'>
                 <div className='grid-items'>
                     <div className='my-2'>
                         <img src={DanceImage} width={'30px'} height={'40px'} />
                     </div>
                     <div>
-                        <b><a href='#' className='aref'><p style={{ fontSize: '0.9rem' }}>Dance Classes</p></a></b>
+                        <b><p style={{ fontSize: '0.9rem' }}>Dance Classes</p></b>
                     </div>
                 </div>
+                </a>
                 <div className='grid-items'>
                     <div className='my-2'>
                         <img src={SingingImage} width={'45px'} height={'40px'} />
@@ -98,9 +106,9 @@ export default function Services() {
                 </div>
             </div>
             <hr />
-            <div className='container-fluid'>
+            <div className='container-fluid' id = 'danceLink'>
                 <div className='DanceServices'>
-                <h4 className='display-4 fontsizeserv'>About Dance Services</h4>
+                <h4 className='display-4 fontsizeserv'>Our Services</h4>
                 </div>
 
                 <div className='d-flex justify-content-sm-around my-3'>
@@ -120,7 +128,7 @@ export default function Services() {
             </div>
 
             <hr />
-            <div className='container-fluid' id='beautyLink'>
+            <div className='container-fluid' id='yogaLink'>
                 <div className='BeautyServices'>
                 <h4 className='display-4 fontsizeserv'>About Yoga Services</h4>
                 </div>

@@ -1,75 +1,69 @@
-// import React, { useEffect, useState } from 'react';
-
-// function Products() {
-//   const [products, setProducts] = useState([]);
-
-//   useEffect(() => {
-//     fetch('/api/products')
-//     .then(response => response.json())
-//     .then(data => setProducts(data));
-// }, []);
-
-// return (
-//   <div>
-//     <h1>Products</h1>
-//     <ul>
-//       {products.map(product => (
-//         <li key={product._id}>
-//           <h2>{product.name}</h2>
-//           <p>{product.description}</p>
-//           <p>${product.price}</p>
-//           <img src={product.image} alt={product.name} />
-//         </li>
-//       ))}
-//     </ul>
-//   </div>
-// );
-// }
-
-// export default Products;
-
 import React from 'react'
+// import axios from 'axios'
+// import BASE_URL from '../BASE_URL'
+//import ProductCard from '../components/products/ProductCard'
+// import TableItem from './TableItem'
+import image from './images/we.jpeg'
+import p1 from './images/Products/product1.jpeg'
+import p2 from './images/Products/product2.jpeg'
+import p3 from './images/Products/product3.jpeg'
+import p4 from './images/Products/product4.jpeg'
 
 
-export default function Shop() {
-  return (<div>
-    <div id="loadingDiv">
-      <div class="loader"></div>
-    </div>
-    <div id="cursor"></div>
+const Shop = () =>
+{
 
-    <div class="container">
-      <nav>
-        <div class="row">
-          <div class="col-6">
-            <div class="navbar-left">
-              <h1>
-                <a href="#">Mate<span>Store</span></a>
-              </h1>
-              <p class="navbar-p">Our Best Shopping Center</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="navbar-right">
-              <a href="javascript:void(0);">
-                <img
-                  src="https://tse1.mm.bing.net/th?id=OIP.IaoQZRzMTYotymEDBMXk1wHaHa&pid=Api&P=0"
-                  alt="shopping cart"
-                  class="shopping-cart-img"
-                />
-              </a>
-            </div>
+  return <>
+    <div class="box">
+    <div class="card">
+      <div class="containers">
+        <img class="card-img-top" src={p2} alt="Card image cap" />
+        <div class="card-body">
+          <p>Godna art small notebooks-Set of 4</p>
+          <a href="/cart" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="containers">
+        <img class="card-img-top" src={p1} alt="Card image cap" />
+        <div class="card-body">
+          <p>Godna art small notebooks-Set of 4</p>
+          <a href="/cart" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+        <div class="containers">
+          <img class="card-img-top" src={p3} alt="Card image cap" />
+          <div class="card-body">
+            <p>Godna art small notebooks-Set of 4</p>
+            <a href="/cart" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-      </nav>
-
-      <section id="product-section">
-        <div class="filters"></div>
-        <div class="products">
-          <div class="product-list row"></div>
-        </div>
-      </section>
+        
     </div>
-</div>
-  )
+    <div class="card">
+      <div class="containers">
+        <img class="card-img-top" src={p4} alt="Card image cap" />
+        <div class="card-body">
+          <p>Godna art small notebooks-Set of 4</p>
+          <a href="/cart" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="containers">
+        <img class="card-img-top" src={image} alt="Card image cap" />
+        <div class="card-body">
+          <p>Godna art small notebooks-Set of 4</p>
+          <a href="/cart" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+        <div class="containers">
+          <img class="card-img-top" src={image} alt="Card image cap" />
+          <div class="card-body">
+            <p>Godna art small notebooks-Set of 4</p>
+            <a href="/cart" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        
+    </div>
+    </div>
+  </>
 }
+export default Shop;

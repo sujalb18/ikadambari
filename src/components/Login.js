@@ -11,7 +11,7 @@ export default function Login() {
         <div className='my-5'>
           <img src={ikadambarilogo} width='400px' />
         </div>
-        <div className='w-25'>
+        <div className='authform'>
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
